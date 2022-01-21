@@ -1,0 +1,105 @@
+.footer {
+  background-color: $background-color;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-blok {
+  display: flex;
+  align-items: baseline;
+}
+.footer-logo {
+  text-decoration: none;
+  color: $white;
+  font-family: $font-rale;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &__footer-logo:hover,
+  .footer-logo:focus {
+    color: $hover;
+  }
+}
+.address-post {
+  font-style: normal;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $white;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-email,
+.address-tel {
+  font-style: normal;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $input;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+&:focus,
+&:hover{
+  color: $hover;
+}
+.footer-logo-decor {
+  color: $hover;
+}
+.item-footer + .item-footer {
+  margin-top: 9px;
+}
+.join {
+  margin-left: 70px;
+}
+.join-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: $white;
+  margin-bottom: 20px;
+}
+.join-list {
+  display: flex;
+
+  &__join-item {
+    width: 44px;
+    height: 44px;
+
+    &__join-link {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.1);
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+      &__join-img {
+        width: 20px;
+        height: 20px;
+        fill: $white;
+      }
+      &:hover,
+      &:focus {
+        background-color: $hover;
+      }
+    }
+  }
+}
+
+.subscribe {
+  margin-left: 93px;
+}
+
+.subscribe-cont {
+  display: flex;
+}
