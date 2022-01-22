@@ -1026,7 +1026,7 @@ label {
   margin-bottom: 50px;
 }
 
-.button-item + .button-item {
+.buttons-list--button-item + .buttons-list--button-item {
   margin-left: 8px;
 }
 
@@ -1126,7 +1126,7 @@ label {
   text-decoration: none;
 }
 
-.exemples-item {
+.exemples-list--exemples-item {
   margin-left: 30px;
   margin-top: 30px;
   -ms-flex-preferred-size: calc((100% - 90px) / 3);
@@ -1134,7 +1134,7 @@ label {
   overflow: hidden;
 }
 
-.exemples-item:hover {
+.exemples-list--exemples-item:hover {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
