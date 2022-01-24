@@ -120,7 +120,7 @@ address {
   color: #2196f3;
 }
 
-.nav-list-item {
+.nav-list__item {
   position: relative;
 }
 
@@ -136,7 +136,7 @@ address {
   top: 45px;
 }
 
-.nav-list-item + .nav-list-item {
+.nav-list__item + .nav-list__item {
   margin-left: 50px;
 }
 
@@ -147,7 +147,7 @@ address {
   margin-left: auto;
 }
 
-.contacts .item + .item {
+.contacts__item + .contacts__item {
   margin-left: 50px;
 }
 
@@ -891,7 +891,7 @@ label {
   margin-bottom: 20px;
 }
 
-.join-item {
+.join-list__join-item {
   width: 44px;
   height: 44px;
 }
@@ -940,7 +940,7 @@ label {
   display: flex;
 }
 
-.join-item + .join-item {
+.join-list__join-item + .join-list__join-item {
   margin-left: 10px;
 }
 
@@ -1026,7 +1026,7 @@ label {
   margin-bottom: 50px;
 }
 
-.buttons-list--button-item + .buttons-list--button-item {
+.buttons-list__button-item + .buttons-list__button-item {
   margin-left: 8px;
 }
 
@@ -1126,7 +1126,7 @@ label {
   text-decoration: none;
 }
 
-.exemples-list--exemples-item {
+.exemples-list__exemples-item {
   margin-left: 30px;
   margin-top: 30px;
   -ms-flex-preferred-size: calc((100% - 90px) / 3);
@@ -1134,7 +1134,7 @@ label {
   overflow: hidden;
 }
 
-.exemples-list--exemples-item:hover {
+.exemples-list__exemples-item:hover {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }

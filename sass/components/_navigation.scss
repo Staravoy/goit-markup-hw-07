@@ -26,7 +26,7 @@
   color: $hover;
 }
 
-.nav-list-item {
+.nav-list__item {
   position: relative;
 }
 .nav-link-active::after {
@@ -41,6 +41,6 @@
   left: 0;
   top: 45px;
 }
-.nav-list-item + .nav-list-item {
+.nav-list__item + .nav-list__item {
   margin-left: 50px;
 }

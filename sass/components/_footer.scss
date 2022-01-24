@@ -67,7 +67,7 @@
   color: $white;
   margin-bottom: 20px;
 }
-.join-item {
+.join-list__join-item {
   width: 44px;
   height: 44px;
 }
@@ -102,6 +102,6 @@
 .subscribe-cont {
   display: flex;
 }
-.join-item + .join-item {
+.join-list__join-item + .join-list__join-item {
   margin-left: 10px;
 }
